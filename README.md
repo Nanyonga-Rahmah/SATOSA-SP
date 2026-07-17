@@ -17,10 +17,12 @@ sudo apt-get install -y libxml2-dev libxmlsec1-dev \
 ```
 
 ## Project Structure
+
+
 sp/
 ├── src/
 │   └── sp/
-│       ├── init.py
+│       ├── __init__.py
 │       ├── app.py              # Flask application and routes
 │       ├── config.py           # pysaml2 SP configuration
 │       └── generate_metadata.py
