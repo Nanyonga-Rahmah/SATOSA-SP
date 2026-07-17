@@ -18,7 +18,7 @@ sudo apt-get install -y libxml2-dev libxmlsec1-dev \
 
 ## Project Structure
 
-
+```text
 sp/
 ├── src/
 │   └── sp/
@@ -33,6 +33,7 @@ sp/
 ├── pyproject.toml
 ├── GNUmakefile
 └── .pre-commit-config.yaml
+```
 
 ## Setup
 
