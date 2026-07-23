@@ -43,4 +43,4 @@ module = "saml2.*"
 ignore_missing_imports = true
 
 [tool.setuptools.package-data]
-idp = ["certs/*", "metadata/*", "templates/*"]
+sp = ["certs/*", "metadata/*", "templates/*"]
