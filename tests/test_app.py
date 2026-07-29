@@ -25,4 +25,4 @@ def test_login_redirects(client) -> None:
     """The login route should redirect to the IdP's SSO endpoint."""
     response = client.get("/login")
     assert response.status_code == 302
-    assert "localhost:8080" in response.headers["Location"]
+    assert "https://satosa-latest.onrender.com" in response.headers["Location"]
