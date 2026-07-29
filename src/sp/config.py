@@ -6,13 +6,13 @@ _PROJECT_ROOT: Path = Path(__file__).resolve().parents[0]
 
 
 CONFIG: dict[str, object] = {
-    "entityid": "http://localhost:8000/metadata",
+    "entityid": "https://sp-ikqb.onrender.com/metadata",
     "service": {
         "sp": {
             "endpoints": {
                 "assertion_consumer_service": [
                     (
-                        "http://localhost:8000/acs",
+                        "https://sp-ikqb.onrender.com/acs",
                         BINDING_HTTP_POST,
                     )
                 ]

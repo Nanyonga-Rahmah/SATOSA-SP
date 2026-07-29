@@ -1,4 +1,4 @@
-<ns0:EntityDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" entityID="http://localhost:8080/Saml2IDP/proxy.xml">
+<ns0:EntityDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns1="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" entityID="https://satosa-latest.onrender.com/Saml2IDP/proxy.xml">
 <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAuthnRequestsSigned="false">
 <ns0:Extensions>
 <ns1:UIInfo>
@@ -20,13 +20,13 @@
 </ns0:KeyDescriptor>
 <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
 <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8080/Saml2/sso/post"/>
-<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://localhost:8080/Saml2/sso/redirect"/>
+<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa-latest.onrender.com/Saml2/sso/post"/>
+<ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://satosa-latest.onrender.com/Saml2/sso/redirect"/>
 </ns0:IDPSSODescriptor>
 <ns0:Organization>
 <ns0:OrganizationName xml:lang="en">Example Identities Org.</ns0:OrganizationName>
 <ns0:OrganizationDisplayName xml:lang="en">Example Identities</ns0:OrganizationDisplayName>
-<ns0:OrganizationURL xml:lang="en">http://localhost:8080</ns0:OrganizationURL>
+<ns0:OrganizationURL xml:lang="en">https://satosa-latest.onrender.com</ns0:OrganizationURL>
 </ns0:Organization>
 <ns0:ContactPerson contactType="technical">
 <ns0:GivenName>Technical</ns0:GivenName>

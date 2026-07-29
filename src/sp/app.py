@@ -30,7 +30,7 @@ def home() -> ResponseReturnValue:
 def login() -> ResponseReturnValue:
 
     # This must match the entityID of your IdP
-    idp_entityid = "http://localhost:8080/Saml2IDP/proxy.xml"
+    idp_entityid = "https://satosa-latest.onrender.com/Saml2IDP/proxy.xml"
 
     request_id, binding, http_info = sp_client.prepare_for_negotiated_authenticate(
         entity_id=idp_entityid,
